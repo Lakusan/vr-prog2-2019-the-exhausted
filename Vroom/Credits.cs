@@ -61,12 +61,7 @@ namespace Vroom
             names7 = Content.Load<Texture2D>("credits7");
             names8 = Content.Load<Texture2D>("credits8");
             creditsMusic = Content.Load<Song>("04 Cold as Steel");
-            //if (!isPlaying)
-            //{
-            //    MediaPlayer.Stop();
-            //    isPlaying = true;
-            //    MediaPlayer.IsRepeating = true;
-            //}
+   
             
         }
         public void Update(GameTime gameTime)

@@ -69,7 +69,7 @@ namespace Vroom
             if (CheckKeyboard(Keys.Enter) || CheckKeyboard(Keys.Space))
             {
                 switch (selected)
-                {//Gestern auf 1 2 3 geändert. keine ahunug was passiert
+                {
                     case 0:
                         currentSelectedCar = 2;
                         Player.player.currentSelectedCar = 2;
