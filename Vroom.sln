@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom", "Vroom\Vroom.csproj", "{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Debug|x64.ActiveCfg = Debug|x64
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Debug|x64.Build.0 = Debug|x64
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Debug|x86.ActiveCfg = Debug|x86
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Debug|x86.Build.0 = Debug|x86
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Release|x64.ActiveCfg = Release|x64
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Release|x64.Build.0 = Release|x64
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Release|x86.ActiveCfg = Release|x86
+		{C7F2D93C-8AD6-4B54-846A-D2942670E1BE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {525FE9CE-3EAE-4385-9C12-53A31616B739}
+	EndGlobalSection
+EndGlobal

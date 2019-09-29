@@ -1,0 +1,244 @@
+<Map>
+  <size width="8192" height="4608" />
+</Map>
+<Objects>
+  <obj class="Player" x="4000" y="2000" />
+
+  <obj class="Wall" x="450" y="450 " />
+   <obj class="Wall" x="540" y="450" />
+   <obj class="Wall" x="660" y="450" />
+   <obj class="Wall" x="780" y="450" />
+   <obj class="Wall" x="900" y="450" />
+   <obj class="Wall" x="1020" y="450" />
+   <obj class="Wall" x="1140" y="450" />
+   <obj class="Wall" x="1260" y="450" />
+   <obj class="Wall" x="1380" y="450" />
+   <obj class="Wall" x="1500" y="450" />
+   <obj class="Wall" x="1620" y="450" />
+   <obj class="Wall" x="1740" y="450" />
+   <obj class="Wall" x="1860" y="450" />
+   <obj class="Wall" x="1980" y="450" />
+   <obj class="Wall" x="2100" y="450" />
+   <obj class="Wall" x="2220" y="450" />
+   <obj class="Wall" x="2340" y="450" />
+   <obj class="Wall" x="2460" y="450" />
+   <obj class="Wall" x="2580" y="450" />
+   <obj class="Wall" x="2700" y="450" />
+   <obj class="Wall" x="2820" y="450" />
+   <obj class="Wall" x="2940" y="450" />
+   <obj class="Wall" x="3060" y="450" />
+   <obj class="Wall" x="3180" y="450" />
+   <obj class="Wall" x="3300" y="450" />
+   <obj class="Wall" x="3420" y="450" />
+   <obj class="Wall" x="3540" y="450" />
+   <obj class="Wall" x="3660" y="450" />
+   <obj class="Spawner" x="3780" y="450" />
+   <obj class="Spawner" x="3900" y="450" />
+   <obj class="Spawner" x="4020" y="450" />
+   <obj class="Spawner" x="4140" y="450" />
+   <obj class="Spawner" x="4260" y="450" />
+   <obj class="Spawner" x="4380" y="450" />
+  <obj class="Wall" x="3780" y="320" />
+  <obj class="Wall" x="3900" y="320" />
+  <obj class="Wall" x="4020" y="320" />
+  <obj class="Wall" x="4140" y="320" />
+  <obj class="Wall" x="4260" y="320" />
+  <obj class="Wall" x="4380" y="320" />
+   <obj class="Wall" x="4500" y="450" />
+   <obj class="Wall" x="4620" y="450" />
+   <obj class="Wall" x="4740" y="450" />
+   <obj class="Wall" x="4860" y="450" />
+   <obj class="Wall" x="4980" y="450" />
+   <obj class="Wall" x="5100" y="450" />
+   <obj class="Wall" x="5220" y="450" />
+   <obj class="Wall" x="5340" y="450" />
+   <obj class="Wall" x="5460" y="450" />
+   <obj class="Wall" x="5580" y="450" />
+   <obj class="Wall" x="5700" y="450" />
+   <obj class="Wall" x="5820" y="450" />
+   <obj class="Wall" x="5940" y="450" />
+   <obj class="Wall" x="6060" y="450" />
+   <obj class="Wall" x="6180" y="450" />
+   <obj class="Wall" x="6300" y="450" />
+   <obj class="Wall" x="6420" y="450" />
+   <obj class="Wall" x="6540" y="450" />  
+   <obj class="Wall" x="6660" y="450" />
+   <obj class="Wall" x="6780" y="450" />
+   <obj class="Wall" x="6900" y="450" />
+   <obj class="Wall" x="7020" y="450" />
+   <obj class="Wall" x="7140" y="450" />
+   <obj class="Wall" x="7260" y="450" />
+   <obj class="Wall" x="7380" y="450" />
+   <obj class="Wall" x="7500" y="450" />
+   <obj class="Wall" x="7620" y="450" />
+   <obj class="Wall" x="7740" y="450" />
+   <obj class="Wall" x="7860" y="450" />
+   <obj class="Wall" x="7980" y="450" />
+   <obj class="Wall" x="8100" y="450" />
+                                 
+  <obj class="Wall" x="7740" y="560" />
+  <obj class="Wall" x="7740" y="345" />
+  <obj class="Wall" x="7740" y="420" />
+  <obj class="Wall" x="7740" y="540" />
+  <obj class="Wall" x="7740" y="660" />
+  <obj class="Wall" x="7740" y="780" />
+  <obj class="Wall" x="7740" y="900" />
+  <obj class="Wall" x="7740" y="1020" />
+  <obj class="Wall" x="7740" y="1140" />
+  <obj class="Wall" x="7740" y="1260" />
+  <obj class="Wall" x="7740" y="1380" />
+  <obj class="Wall" x="7740" y="1500" />
+  <obj class="Wall" x="7740" y="1620" />
+  <obj class="Wall" x="7740" y="1740" />
+  <obj class="Wall" x="7740" y="1860" />
+  <obj class="Spawner" x="7740" y="1980" />
+  <obj class="Spawner" x="7740" y="2100" />
+  <obj class="Spawner" x="7740" y="2220" />
+  <obj class="Spawner" x="7740" y="2340" />
+  <obj class="Spawner" x="7740" y="2460" />
+  <obj class="Spawner" x="7740" y="2580" />
+  <obj class="Wall" x="7870" y="1980" />
+  <obj class="Wall" x="7870" y="2100" />
+  <obj class="Wall" x="7870" y="2220" />
+  <obj class="Wall" x="7870" y="2340" />
+  <obj class="Wall" x="7870" y="2460" />
+  <obj class="Wall" x="7870" y="2580" />
+  <obj class="Wall" x="7740" y="2700" />
+  <obj class="Wall" x="7740" y="2820" />
+  <obj class="Wall" x="7740" y="2940" />
+  <obj class="Wall" x="7740" y="3060" />
+  <obj class="Wall" x="7740" y="3180" />
+  <obj class="Wall" x="7740" y="3300" />
+  <obj class="Wall" x="7740" y="3420" />
+  <obj class="Wall" x="7740" y="3540" />
+  <obj class="Wall" x="7740" y="3660" />
+  <obj class="Wall" x="7740" y="3780" />
+  <obj class="Wall" x="7740" y="3900" />
+  <obj class="Wall" x="7740" y="4020" />
+  <obj class="Wall" x="7740" y="4140" />
+  <obj class="Wall" x="7740" y="4260" />
+  <obj class="Wall" x="7740" y="4380" />
+
+
+  <obj class="Wall" x="450" y="4160" />
+  <obj class="Wall" x="570" y="4160" />
+  <obj class="Wall" x="690" y="4160" />
+  <obj class="Wall" x="810" y="4160" />
+  <obj class="Wall" x="930" y="4160" />
+  <obj class="Wall" x="1050" y="4160" />
+  <obj class="Wall" x="1170" y="4160" />
+  <obj class="Wall" x="1290" y="4160" />
+  <obj class="Wall" x="1410" y="4160" />
+  <obj class="Wall" x="1530" y="4160" />
+  <obj class="Wall" x="1650" y="4160" />
+  <obj class="Wall" x="1770" y="4160" />
+  <obj class="Wall" x="1890" y="4160" />
+  <obj class="Wall" x="2010" y="4160" />
+  <obj class="Wall" x="2130" y="4160" />
+  <obj class="Wall" x="2250" y="4160" />
+  <obj class="Wall" x="2370" y="4160" />
+  <obj class="Wall" x="2490" y="4160" />
+  <obj class="Wall" x="2610" y="4160" />
+  <obj class="Wall" x="2730" y="4160" />
+  <obj class="Wall" x="2850" y="4160" />
+  <obj class="Wall" x="2970" y="4160" />
+  <obj class="Wall" x="3090" y="4160" />
+  <obj class="Wall" x="3210" y="4160" />
+  <obj class="Wall" x="3330" y="4160" />
+  <obj class="Wall" x="3450" y="4160" />
+  <obj class="Wall" x="3570" y="4160" />
+  <obj class="Wall" x="3690" y="4160" />
+  <obj class="Spawner" x="3810" y="4160" />
+  <obj class="Spawner" x="3930" y="4160" />
+  <obj class="Spawner" x="4050" y="4160" />
+  <obj class="Spawner" x="4170" y="4160" />
+  <obj class="Spawner" x="4290" y="4160" />
+  <obj class="Spawner" x="4410" y="4160" />
+  <obj class="Spawner" x="4530" y="4160" />
+  <obj class="Spawner" x="4650" y="4160" />
+
+  <obj class="Wall" x="3810" y="4290" />
+  <obj class="Wall" x="3930" y="4290" />
+  <obj class="Wall" x="4050" y="4290" />
+  <obj class="Wall" x="4170" y="4290" />
+  <obj class="Wall" x="4290" y="4290" />
+  <obj class="Wall" x="4410" y="4290" />
+  <obj class="Wall" x="4530" y="4290" />
+  <obj class="Wall" x="4650" y="4290" />
+
+  <obj class="Wall" x="4770" y="4160" />
+  <obj class="Wall" x="4500" y="4160" />
+  <obj class="Wall" x="4620" y="4160" />
+  <obj class="Wall" x="4740" y="4160" />
+  <obj class="Wall" x="4860" y="4160" />
+  <obj class="Wall" x="4980" y="4160" />
+  <obj class="Wall" x="5100" y="4160" />
+  <obj class="Wall" x="5220" y="4160" />
+  <obj class="Wall" x="5340" y="4160" />
+  <obj class="Wall" x="5460" y="4160" />
+  <obj class="Wall" x="5580" y="4160" />
+  <obj class="Wall" x="5700" y="4160" />
+  <obj class="Wall" x="5820" y="4160" />
+  <obj class="Wall" x="5940" y="4160" />
+  <obj class="Wall" x="6060" y="4160" />
+  <obj class="Wall" x="6180" y="4160" />
+  <obj class="Wall" x="6300" y="4160" />
+  <obj class="Wall" x="6420" y="4160" />
+  <obj class="Wall" x="6540" y="4160" />
+  <obj class="Wall" x="6660" y="4160" />
+  <obj class="Wall" x="6780" y="4160" />
+  <obj class="Wall" x="6900" y="4160" />
+  <obj class="Wall" x="7020" y="4160" />
+  <obj class="Wall" x="7140" y="4160" />
+  <obj class="Wall" x="7260" y="4160" />
+  <obj class="Wall" x="7380" y="4160" />
+  <obj class="Wall" x="7500" y="4160" />
+  <obj class="Wall" x="7620" y="4160" />
+  <obj class="Wall" x="7740" y="4160" />
+  <obj class="Wall" x="7860" y="4140" />
+
+
+  <obj class="Wall" x="450" y="560 " />
+  <obj class="Wall" x="450" y="680 " />
+  <obj class="Wall" x="450" y="800 " />
+  <obj class="Wall" x="450" y="920 " />
+  <obj class="Wall" x="450" y="1040 " />
+  <obj class="Wall" x="450" y="1160" />
+  <obj class="Wall" x="450" y="1280" />
+  <obj class="Wall" x="450" y="1400" />
+  <obj class="Wall" x="450" y="1520" />
+  <obj class="Wall" x="450" y="1640" />
+  <obj class="Wall" x="450" y="1760" />
+  <obj class="Wall" x="450" y="1880" />
+
+  <obj class="Spawner" x="450" y="2000" />
+  <obj class="Spawner" x="450" y="2120" />
+  <obj class="Spawner" x="450" y="2240" />
+  <obj class="Spawner" x="450" y="2360" />
+  <obj class="Spawner" x="450" y="2480" />
+  <obj class="Spawner" x="450" y="2600" />
+
+  <obj class="Wall" x="320" y="2000" />
+  <obj class="Wall" x="320" y="2120" />
+  <obj class="Wall" x="320" y="2240" />
+  <obj class="Wall" x="320" y="2360" />
+  <obj class="Wall" x="320" y="2480" />
+  <obj class="Wall" x="320" y="2600" />
+
+
+  <obj class="Wall" x="450" y="2720 " />
+  <obj class="Wall" x="450" y="2840" />
+  <obj class="Wall" x="450" y="2960" />
+  <obj class="Wall" x="450" y="3080" />
+  <obj class="Wall" x="450" y="3200" />
+  <obj class="Wall" x="450" y="3320" />
+  <obj class="Wall" x="450" y="3440" />
+  <obj class="Wall" x="450" y="3560" />
+  <obj class="Wall" x="450" y="3680" />
+  <obj class="Wall" x="450" y="3800" />
+  <obj class="Wall" x="450" y="3920" />
+  <obj class="Wall" x="450" y="4040" />
+
+
+
+</Objects>

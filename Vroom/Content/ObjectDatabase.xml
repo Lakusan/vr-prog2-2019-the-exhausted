@@ -1,0 +1,11 @@
+<Map>
+    <Size width="1600" height="1600" />
+</Map>
+
+<Objects>
+    <Object class="Wall" x="500" y ="100" />
+    <Object class="Wall" x="200" y ="100" />
+    <Object class="Wall" x="300" y ="100" />
+    <Object class="Wall" x="400" y ="100" />
+    <Object class="Wall" x="500" y ="100" />
+</Objects>
