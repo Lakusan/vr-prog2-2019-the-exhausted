@@ -215,7 +215,8 @@ namespace Vroom
             imageIndex += (imageIndex < imageNumber - 1) ? imageSpeed : -imageIndex;
             size = new Rectangle((int)imageIndex * frame.X, 0+(currentSelectedCar*frame.Y), frame.X, frame.Y);           
             spriteBatch.Draw(spriteIndex, position, size, Color.White,rotation, center, scale, SpriteEffects.None, 0);
-            
+            //spriteBatch.DrawString(Game1.gameOverFont,"X: "+Player.player.position.X,new Vector2(Player.player.position.X -300,Player.player.position.Y-300),Color.White);          
+            //spriteBatch.DrawString(Game1.gameOverFont,"Y: "+ Player.player.position.Y,new Vector2(Player.player.position.X -400,Player.player.position.Y-400),Color.White);
 
         }
 

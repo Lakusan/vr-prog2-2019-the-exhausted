@@ -28,19 +28,27 @@ namespace Vroom
             try //good for exeptionhandling and makes it easier..shows message if it fails
             {
                 StreamReader reader = new StreamReader(pathName);
-
+                //string line;
+                //while ((line = reader.ReadLine()) != null)
+                //{
+                //    Console.WriteLine(line);
+                //}
+                //read file and put in string
                 string xmlString = reader.ReadToEnd();
 
                 //Set Map width and height
                 SetMap(xmlString);
 
-                
+                //Console.WriteLine(xmlString);
 
                 //split all objects 
                 string[] xmlObjectArray = SplitObjects(xmlString);
-           
+                //Console.WriteLine(xmlObjectArray);
 
-             
+                //for (int counter = 0; counter < xmlObjectArray.Count(); counter++)
+                //{
+                //    Console.WriteLine(xmlObjectArray[counter]);
+                //}
                 //Create Objects from string array
                 CreateAllObjects(xmlObjectArray);
                 return true;
@@ -86,12 +94,14 @@ namespace Vroom
             string _class = GetAttribute(s, "class");
             int x = Convert.ToInt32(GetAttribute(s, "x"));
             int y = Convert.ToInt32(GetAttribute(s, "y"));
-     
+            //Console.WriteLine(_class);
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
 
             switch(_class)
             {
                 case "Wall":
-                   
+                    //Items.objectList.Add(new Wall(new Vector2(x, y)));
                     SetNewObject(new Wall(new Vector2 (x,y)));
                     break;
                 case "Player":
@@ -159,7 +169,7 @@ namespace Vroom
             xmlString = xmlString.Replace("<Objects>", "");
             xmlString = xmlString.Replace("</Objects>", "");
 
-          
+            //Console.WriteLine(xmlString);
 
             //string keySplit = "<Object".IndexOf("o");
             //If it can't find "o", returns -1"
@@ -167,7 +177,12 @@ namespace Vroom
            
             ////first try
             int pos = xmlString.IndexOf(keySplit);        
-    
+            //Console.WriteLine(pos);
+            //if (pos != -1)
+            //{               
+            //    xmlString = xmlString.Remove(pos, keySplit.Length);
+            //}
+            //Console.WriteLine(xmlString);
             //Rest of the time
             while (pos != -1)
             {
@@ -183,7 +198,10 @@ namespace Vroom
                 //Console.WriteLine(pos);
             }
 
- 
+            //stringList.ForEach(delegate (String name)
+            //{
+            //    Console.WriteLine(name);
+            //});
             return stringList.ToArray();
         }
 
@@ -199,12 +217,13 @@ namespace Vroom
             xmlString = xmlString.Replace("<Map>", "");
             xmlString = xmlString.Replace("</Map>", "");
 
-        
+            //Console.WriteLine(xmlString);
             
             int width = Convert.ToInt32(GetAttribute(xmlString, "width"));
             int height = Convert.ToInt32(GetAttribute(xmlString, "height"));
 
-        
+            //Console.WriteLine(width);
+            //Console.WriteLine(height);
 
 
             //set screensize (mapsize)

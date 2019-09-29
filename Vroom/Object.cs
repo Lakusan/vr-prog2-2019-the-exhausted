@@ -105,7 +105,8 @@ namespace Vroom
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-
+            //If Player is dead return
+            //if (!alive) return;
             
             if (!draw || !alive) return;
             Rectangle size;

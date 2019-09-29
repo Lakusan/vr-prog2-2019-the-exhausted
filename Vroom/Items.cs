@@ -50,9 +50,19 @@ namespace Vroom
 
 
             }
+            ////Player !!! Player Position must not be (0,0) at al cost, because of gameCrash because of pathfinder logic (grid[-1,-1] doesn't exist inside the screen)
+            //objectList.Add(new Player(new Vector2(800, 800)));
+            ////Wall
+            //objectList.Add(new Wall(new Vector2(300, 300)));
+            ////Place Spawning Points for Enemy
+            //objectList.Add(new Spawner(new Vector2(400, 300)));
+            ////TestAnimation
+            //objectList.Add(new Animated(new Vector2(600, 600)));
 
 
-
+            //Enemy (always after Player!!) and Postition not x or y not 0 or outside the screen because of pathfinder
+            //give amount of enemy
+            //enemy pos must not be 0,0 ...reason: needs to "see" player
             for (int i = 0; i < 16; i++)
             {
                 Enemy e = new Enemy(new Vector2(200, 200));

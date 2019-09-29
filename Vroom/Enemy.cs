@@ -71,7 +71,15 @@ namespace Vroom
             TryToHitPlayer();
 
 
-
+            //queTimer++;
+            //if(queTimer > queTime)
+            //{
+            //    //code in here happens every second
+            //    queTimer = 0;
+            //    queued = false;
+            //    dest = Player.player.position;
+            //    SetPath();
+            //}
 
             if (health <= 0)
             {
@@ -162,7 +170,14 @@ namespace Vroom
         private void MoveToDestination()
         {
             SetPath();
-        
+            //find new path 
+            //if (path == null && finding == false)
+            //{
+            //    pathIndex = 0;
+            //    dest = Player.player.position;
+            //    SetPath();//finding new path if nothing found
+            //    return;
+            //}
             if (path != null) 
             {
                 //if node is smaller than max nodes to Destination -> follow path
